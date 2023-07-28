@@ -10,7 +10,7 @@ app.get("/",function(req,res){
     compiler.flush(function(){
         console.log("deleted")
     })
-    res.sendFile("A:/myskills/webdevelopment/codeeditor/compiler/skel.html")
+    res.sendFile("A:/myskills/webdevelopment/codeeditor/compiler/index.html")
 })
 app.post("/compile",function(req,res){
     var code=req.body.code
